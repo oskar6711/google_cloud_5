@@ -8,7 +8,7 @@ app = Flask(__name__)
 def track_event(category, action, label=None, value=0):
     data = {
         'v': '1',  # API Version.
-        'tid': GA_TRACKING_ID,  # Tracking ID / Property ID.
+        'tid': "G-5QDQ6CGL4J",  # Tracking ID / Property ID.
         # Anonymous Client Identifier. Ideally, this should be a UUID that
         # is associated with particular user, device, or browser instance.
         'cid': '555',
